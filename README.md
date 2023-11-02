@@ -5,8 +5,8 @@ Our aim is to provide a valuable resource for researchers, practitioners, and en
 
 We encourage exploration, discussion, and collaboration, and we welcome contributions and suggestions from the community to further enrich this repository. Dive in to discover a wealth of knowledge, inspire innovative ideas, and potentially contribute to the next wave of AI advancements!
 
+![transformers](images/architecture.png)
 
-G:\My Drive\MY_CODE\my_blog\BLOG\11. Important Research Papers\GIT\images
 ### 1. FOUNDATION OF GENAI
 ***
 **1.1 Attention Is All You Need**
