@@ -1,15 +1,14 @@
 # GenAI Research Papers & Notes
-This repository meticulously compiles a curated collection of seminal papers and resources in the field of generative AI. It encompasses a comprehensive range of topics including, but not limited to, Transformers, Foundation Models, Fine-tuning Techniques, Prompting Strategies, Efficient GPT Variants, Robust AI (RAI) Practices, Large Language Model Operational Scaling (LLMOPS), and Frugal AI Implementations.
+This repository meticulously compiles a curated collection of seminal papers and resources in the field of generative AI. It encompasses a comprehensive range of topics including, but not limited to, Transformers, Foundation Models, Fine-tuning Techniques, Prompting Strategies, Efficient GPT Variants, Responsible AI (RAI) Practices, Large Language Model Operational Scaling (LLMOPS), and Frugal AI Implementations.
 
 Our aim is to provide a valuable resource for researchers, practitioners, and enthusiasts alike, facilitating ease of access to groundbreaking work and innovative advancements in the realm of generative AI. Each paper has been selected for its relevance and contribution to the field, ensuring that users can trust the quality and significance of the material presented.
 
 We encourage exploration, discussion, and collaboration, and we welcome contributions and suggestions from the community to further enrich this repository. Dive in to discover a wealth of knowledge, inspire innovative ideas, and potentially contribute to the next wave of AI advancements!
 
-<div style="text-align: center">
+
 
 ![transformers](images/architecture.png)
 
-</div>
 
 <div style="background: linear-gradient(to right, #ff7e5f, #feb47b); padding: 10px; border-radius: 5px; text-align: center;">
   1. Foundation of GenAI
@@ -24,11 +23,10 @@ We encourage exploration, discussion, and collaboration, and we welcome contribu
 
 https://arxiv.org/pdf/1706.03762.pdf
 
-<div style="text-align: center">
+
 
 ![transformers](images/transformers.png)
 
-</div>
 
 <small>We can observe there is an encoder model on the left side and the decoder on the right one. Both contains a core block of “an attention and a feed-forward network” repeated N times. Important concept is self-attention mechanism here at the core.</small>
 
@@ -85,11 +83,8 @@ https://arxiv.org/pdf/1706.03762.pdf
 
 https://arxiv.org/pdf/2305.05176.pdf
 
-<div style="text-align: center">
-
 ![Frugal GPT](images/Frugal%20GPT.png)
 
-</div>
 
 <small> <u>FROM PAPER</u> - Researchers vision over here is reducing LLM cost while improving accuracy. (a) The standard usage sends queries to a single LLM (e.g. GPT-4), which can be expensive. (b) Our proposal is to use prompt adaption, LLM approximation and LLM cascade to reduce the inference cost. By optimizing over the selection of different LLM APIs (e.g., GPT-J, ChatGPT, and GPT-4) as well as prompting strategies
 (such as zero-shot [BMR+20], few-shot [LSZ+21], and chain-of-thought(CoT) [WWS+22]), we can
@@ -98,11 +93,9 @@ reduce the inference cost by 98% while exceeding the performance of the best ind
 
 
 
-<div style="text-align: center">
 
 ![frugal GPT 2](images/frugalGPT2.png)
 
-</div>
 
 
  <small>A case study of FrugalGPT on the HEADLINES dataset. (a) The cascade strategy that</small>
@@ -146,9 +139,5 @@ Model. The model indicators specify the properties and function of the foundatio
 Downstream. The downstream indicators specify how the foundation model is distributed and used, such as the the model's impact on users, any updates to the model, and the policies that govern its use. Full list of downstream indicators.
 
 ![Scores by domain](images/Scores%20by%20domain.png)
-
-
-
-
 
 ![scores by major dimensions](images/scores%20by%20major%20dimensions.png)
